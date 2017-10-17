@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Overview" />
+        <item
+            android:id="@+id/nav_mng_bgt"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Manage Budgets" />
+        <item
+            android:id="@+id/nav_mng_cat"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Manage Categories" />
+        <item
+            android:id="@+id/nav_mng_trans"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Manage Transactions" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_change_pw"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

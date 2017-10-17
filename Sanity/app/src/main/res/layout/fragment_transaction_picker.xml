@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tomdong.sanity.TransactionPickerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/trans_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:text="View your transactiopns of time period:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/trans_from_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="From"
+        android:layout_below="@+id/trans_text"
+        android:layout_alignStart="@+id/trans_text" />
+
+    <Button
+        android:id="@+id/edit_bgt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/trans_from_button"
+        android:layout_below="@+id/trans_from_button"
+        android:layout_marginTop="14dp"
+        android:text="To" />
+
+    <TextView
+        android:id="@+id/trans_from_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-01-01"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginEnd="61dp"
+        android:layout_alignBaseline="@+id/trans_from_button"
+        android:layout_alignBottom="@+id/trans_from_button"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/trans_to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-10-10"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_above="@+id/trans_picker_list"
+        android:layout_alignStart="@+id/trans_from_text" />
+
+    <ListView
+        android:id="@+id/trans_picker_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_bgt_name"
+        android:layout_marginTop="50dp"
+        android:scrollbars="horizontal" />
+</RelativeLayout>

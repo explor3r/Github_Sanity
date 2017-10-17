@@ -15,6 +15,38 @@
       },
       "oauth_client": [
         {
+          "client_id": "980624065966-2eie1kvunk4uadnhpmt2j69jtlp77oaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomdong.sanity",
+            "certificate_hash": "206ea630205e4f6ffe95e09df63a45aeb8c95f28"
+          }
+        },
+        {
+          "client_id": "980624065966-46t8v8mshcvjh6lj2olsss53n0aj9cvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomdong.sanity",
+            "certificate_hash": "08bdba098eee0ca483aefdee47767300d0c01caf"
+          }
+        },
+        {
+          "client_id": "980624065966-hgk8f19ev883fjn8u8irffd4ubh1vun8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomdong.sanity",
+            "certificate_hash": "a268459f01e8563ff6fd58bdc276e9100d463d5d"
+          }
+        },
+        {
+          "client_id": "980624065966-og0hbpqtib5jnr1nkraeodpj9gu3j884.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomdong.sanity",
+            "certificate_hash": "312d9852446f1080be53e3c84f06d859e555cee5"
+          }
+        },
+        {
           "client_id": "980624065966-e7v69u95eraoglfj5hpq9o5j3l9kstia.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +61,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980624065966-e7v69u95eraoglfj5hpq9o5j3l9kstia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
